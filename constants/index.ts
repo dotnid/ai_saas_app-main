@@ -34,11 +34,11 @@ export const navLinks = [
     route: "/profile",
     icon: "/assets/icons/profile.svg",
   },
-  {
-    label: "Buy Credits",
-    route: "/credits",
-    icon: "/assets/icons/bag.svg",
-  },
+  // {
+  //   label: "Buy Credits",
+  //   route: "/credits",
+  //   icon: "/assets/icons/bag.svg",
+  // },
 ];
 
 export const plans = [
@@ -47,10 +47,10 @@ export const plans = [
     name: "Free",
     icon: "/assets/icons/free-plan.svg",
     price: 0,
-    credits: 20,
+    credits: 25,
     inclusions: [
       {
-        label: "20 Free Credits",
+        label: "25 Free Credits",
         isIncluded: true,
       },
       {
